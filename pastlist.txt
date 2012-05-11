@@ -1,0 +1,33 @@
+Partlist
+
+Exported from v2_rev0.sch at 5/11/12 10:01 AM
+
+EAGLE Version 5.11.0 Copyright (c) 1988-2010 CadSoft
+
+Part     Value          Device       Package  Library          Sheet
+
+16MHZ                   CRYSTALHC49S HC49/S   crystal          1
+ATMEGA8  AT90S4433P     AT90S4433P   DIL28-3  atmel            1
+C1       22p            C5/2.5       C5B2.5   capacitor-wima   1
+C2       22p            C5/2.5       C5B2.5   capacitor-wima   1
+C3       100nF          C5/2.5       C5B2.5   capacitor-wima   1
+C4       22.p           C5/2.5       C5B2.5   capacitor-wima   1
+JP1                     M06SIP       1X06     SparkFun         1
+JP2                     M06SIP       1X06     SparkFun         1
+JP3      GND            M06SIP       1X06     SparkFun         1
+JP4      +5V            M06SIP       1X06     SparkFun         1
+LED                     JP4E         JP4      jumper           1
+Q1       BD139          BD139        TO126AV  transistor-power 1
+Q2       BD139          BD139        TO126AV  transistor-power 1
+Q3       BD139          BD139        TO126AV  transistor-power 1
+R1       10k            R-EU_0207/10 0207/10  resistor         1
+R2       1k             R-EU_0207/10 0207/10  resistor         1
+R3       1k             R-EU_0207/10 0207/10  resistor         1
+R4       4.7k           R-EU_0207/10 0207/10  resistor         1
+R5       4.7k           R-EU_0207/10 0207/10  resistor         1
+R6       4.7k           R-EU_0207/10 0207/10  resistor         1
+R7       10k            R-EU_0309/V  0309V    rcl              1
+R8       10             R-EU_0207/10 0207/10  resistor         1
+R9       10             R-EU_0207/10 0207/10  resistor         1
+R10      10             R-EU_0207/10 0207/10  resistor         1
+SUPPLY   2.1MMJACKTHM   2.1MMJACKTHM PJ-102A  adafruit         1
