@@ -43,15 +43,15 @@ void setup() {
   for(int i = 0; i < 3; i++){ pinMode(leds[i], OUTPUT); }
   pinMode(buttonPin,INPUT);
   
-  Serial.begin(9600);
+  //Serial.begin(9600); for debugging
 }
 
 void loop() {
   
   buttonRead();
   
-  Serial.print("State: ");
-  Serial.println(currentState,DEC);
+  //Serial.print("State: ");
+  //Serial.println(currentState,DEC); for debugging
   
   if(currentState==12){   //faster
     randomC();
